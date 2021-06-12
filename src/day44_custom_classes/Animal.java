@@ -8,6 +8,7 @@ public class Animal {
     }
 
     public void eat(String food) {
+
         System.out.println("eats " +food);
     }
     public void speak(){

@@ -9,13 +9,16 @@ public class EtsySearchTest {
         verifyResultsAreDisplayed();
     }
     public static void openBrowser(){
+
         System.out.println("1.Launching Chrome browser");
     }
 
     public static void navigateToEtsyUrl(){
+
         System.out.println("2.Navigate to https://www.etsy.com/");
     }
     public static void searchForWoodenSpoon(){
+
         System.out.println("3.Verify Etsy home page is  displayed");
     }
     public static void verifyResultsAreDisplayed(){

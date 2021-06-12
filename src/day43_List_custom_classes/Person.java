@@ -1,6 +1,6 @@
 package day43_List_custom_classes;
 
-public class Person { // class as a templet  //these data types are sources for this class
+public class Person { // class as a template  //these data types are sources for this class
 //data -> variables
     String firstName;
     int age;

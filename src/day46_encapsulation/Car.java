@@ -9,11 +9,13 @@ public class Car {
 
     //setter method for model
     public void setModel(String carModel){
-           model =carModel;
+
+        model =carModel;
     }
 
     //getter method for model
       public String getModel(){
+
         return model;
     }
 
@@ -24,6 +26,7 @@ public class Car {
 
     //getter for year
     public int getYear(){
+
         return year;
 }
 

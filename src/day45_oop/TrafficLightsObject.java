@@ -14,17 +14,16 @@ public class TrafficLightsObject {
        // System.out.println(tL.color);DIRECT  access to variable. NOT recommended
 // call method to access the variable
         tL.showColor();
-
+        System.out.println("*****************");
         tL.changeColor("green");
         tL.showColor();
+        System.out.println("########################");
 
         TrafficLights trafficLight2 =new TrafficLights();
         trafficLight2.changeColor("blue") ;
-
-
         trafficLight2.showColor();
 
-
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
 
         TrafficLights trafficLight3 =new TrafficLights();
         trafficLight3.changeColor("yellow");

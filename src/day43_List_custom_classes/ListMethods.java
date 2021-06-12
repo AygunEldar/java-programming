@@ -27,7 +27,7 @@ public class ListMethods {
         nums.removeIf(n -> n < 90); //remove nums less than 90
         System.out.println("nums less than 90 = " + nums);
     }
-    public static List<String>getDays (){
+    public static List<String>getDays(){
 
         List<String> days = new ArrayList<>(Arrays.asList("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"));
 
