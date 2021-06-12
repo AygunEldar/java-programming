@@ -4,17 +4,23 @@ public class AppObjects {
     public static void main(String[] args) {
 
         MobileApp mobApp = new MobileApp();
-        mobApp.name = "YouTube";
+        mobApp.setName("YouTube");
         mobApp.useTheApp(10);
-
+        mobApp.downLoad();
 
         Instagram instagram = new Instagram();
-        instagram.name = "Instagram";
+        instagram.setName("Instagram");
+        instagram.setVersion(5.3);
         instagram.useTheApp(20);
+        instagram.downLoad();
 
         Discord b22Discord = new Discord();
-        b22Discord.name ="Discord";
+        b22Discord.setName("Discord");
+        b22Discord.setVersion(6.23);
         b22Discord.useTheApp(100);
+        b22Discord.downLoad();
+        b22Discord.printInfo();
+        System.out.println(b22Discord.getName());
     }
 
 
