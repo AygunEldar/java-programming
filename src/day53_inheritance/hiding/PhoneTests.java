@@ -7,7 +7,9 @@ public class PhoneTests {
         Mobile mobile = new Mobile();
 
         phone.call();
-        mobile.text();
-        mobile.call();
+       mobile.text();
+       mobile.call();
+
+
     }
 }

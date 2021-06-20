@@ -5,8 +5,10 @@ public class MethodsWithParam_Inputs {
         displayValue(7);
         displayValue(77);
         displayValue(85);
+
         int count =55;
         displayValue(count);//as if num = count
+
         int num2 = 10;
         displayValue(num2);
         greetByName("Adil");

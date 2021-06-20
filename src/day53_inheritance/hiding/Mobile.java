@@ -7,9 +7,16 @@ public class Mobile extends Phone {
     we are hiding use()static  method
 
      */
+
     public static void use(){
         System.out.println("Using mobile phone");
+        System.out.println("Thank you for helping");
+
+        int a = 5;
+        int b = 10;
+        System.out.println(a  * b);
     }
+
     public void  text(){
          use();
         System.out.println("and sending a text message");

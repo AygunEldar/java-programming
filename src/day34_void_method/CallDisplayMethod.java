@@ -5,6 +5,7 @@ public class CallDisplayMethod {
         //call displayMessage method from FirstMethod class
         //classname.methodName
         FirstMethod.displayMessage();
+        FirstMethod.displayMessage();
 
     }
 }

@@ -10,6 +10,8 @@ AnimalObjects {
         animal.eat("meat");
         animal.speak();
 
+
+
         System.out.println();
         Animal reptiles =new Animal();
         animal. type = "crocodile";

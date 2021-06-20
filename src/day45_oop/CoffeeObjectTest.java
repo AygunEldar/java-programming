@@ -5,8 +5,10 @@ public class CoffeeObjectTest {
 
         Coffee myCoffee = new Coffee();
         System.out.println("coffee amount is -"+  myCoffee.getAmount());
+
         myCoffee.refill();
         System.out.println("after refilling -"+ myCoffee.getAmount());
+
         myCoffee.drink(10);
         System.out.println("amount after drink 10 = " + myCoffee.getAmount());
 

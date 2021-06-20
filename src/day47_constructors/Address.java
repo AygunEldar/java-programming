@@ -38,8 +38,6 @@ public class Address {
         }
 
     }
-
-
     public String getCity() {
         return city;
     }
@@ -48,7 +46,8 @@ public class Address {
         this.city = city;
     }
 
-    public String getState() {
+    public String getState()
+    {
         return state;
     }
 

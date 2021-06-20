@@ -24,6 +24,7 @@ public class ListMethods {
         List<Integer>nums =getRandomList(100);
         System.out.println("nums size = " + nums.size());
         System.out.println("nums = " + nums);
+
         nums.removeIf(n -> n < 90); //remove nums less than 90
         System.out.println("nums less than 90 = " + nums);
     }

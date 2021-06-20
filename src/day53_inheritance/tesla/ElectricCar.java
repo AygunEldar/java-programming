@@ -51,7 +51,7 @@ public class ElectricCar {
     }
 
     protected void drive(int miles){
-        if(range ==0 ||  miles <0){
+        if(range ==0 || range - miles <0){
             System.out.println("ERROR: Cannot drive that far, need to charge");
         }else{
             range -= miles;

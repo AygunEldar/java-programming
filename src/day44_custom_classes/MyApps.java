@@ -1,6 +1,7 @@
 package day44_custom_classes;
 
-public class MyApps {
+public class
+MyApps {
     public static void main(String[] args) {
 
         App uberApp =new App();
