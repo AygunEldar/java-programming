@@ -23,6 +23,7 @@ class MyObjects{
         Sub sub = new Sub();
         sub.learn();
         System.out.println(sub.num);
+        sub.close();
 
     }
 }
