@@ -1,0 +1,35 @@
+package day57_polymorphism.Animals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AnimalTests {
+    public static void main(String[] args) {
+
+        Animal a1 = new Animal(); //not POLYMORPHISM date type & object type are the same
+        a1.makeNoise();
+
+        Animal animal1 = new Dog();
+        Animal animal2 = new Horse();
+        Animal cat = new Cat();
+
+      // List list =new ArrayList();
+
+        animal1.makeNoise();
+        animal2.makeNoise();
+        cat.makeNoise();
+
+        //polymorphic list of objects.List data type is Parent class.
+        //objects are any of child classes
+        List<Animal> listOfAnimals = new ArrayList<>();
+        listOfAnimals.add(new Dog());
+        listOfAnimals.add(new Dog());
+        listOfAnimals.add(new Horse());
+        listOfAnimals.add(new Cat());
+
+        for(Animal each : listOfAnimals){
+            each.makeNoise();
+        }
+
+    }
+}

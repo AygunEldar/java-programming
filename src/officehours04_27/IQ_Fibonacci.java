@@ -3,7 +3,7 @@ import java.util.*;
 
 public class IQ_Fibonacci {
     public static void main(String[] args) {
-            fib(8);
+            fib(9);
     }
 
     public static void fib (int num){

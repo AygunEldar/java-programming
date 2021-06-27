@@ -16,6 +16,8 @@ public class StringSameLetters {
         }
         return(count == a.length());
     }
+
+
 }
 
 
