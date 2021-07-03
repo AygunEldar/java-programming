@@ -10,8 +10,6 @@ public interface InterfaceA {
     //public InterfaceA(){//Interface class  can not have CONSTRUCTOR }
 
      */
-
-
     public abstract  void absMethodD(int num);
     // before Java8 interface was pure abs. ,
     // only abs. method were allowed, public abs.

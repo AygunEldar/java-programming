@@ -13,12 +13,14 @@ public AbstractA(){ //Abst.class have CONSTRUCTOR
 
     public abstract void absMethodA();
 
-    public void methodB(){
+    public void methodB(){ //non-abstract
         System.out.println("methodB is called");
 
     }
 
     public  static void staticMethodC(){
+
         System.out.println("Static methodC is called");
     }
+
 }

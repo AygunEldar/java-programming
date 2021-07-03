@@ -6,17 +6,19 @@ public  abstract class MyAbstractClass {
   public  void learn(){
       System.out.println("Learning ....");
   }
+public abstract  void  close();
 
+  public static void speak(){
 
-  public abstract void  close();
+  }
 }
+
 
 class Sub extends  MyAbstractClass {
     public void close(){
         System.out.println("Close - abstract method implementation");
     }
 }
-
 class MyObjects{
     public static void main(String[] args) {
        // MyAbstractClass mac = new MyAbstractClass();

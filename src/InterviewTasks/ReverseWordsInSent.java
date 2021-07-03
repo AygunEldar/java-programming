@@ -3,20 +3,24 @@ package InterviewTasks;
 public class ReverseWordsInSent {
     public static void main(String[] args) {
 
-        String sent = "It is snowing in Chicago";
+        System.out.println(reverseWordsInASentence("It is snowing in Chicago"));
 
-        String [] words =sent.split(" ");
-        String reverse = " ";
-        for(int i = 0 ;i < words.length;i++){
-
-            String letters = words[i];
-            String revWords =" ";
-            for(int j = letters.length()-1; j >=0;j--){
-
-               revWords += " "+letters.charAt(j);
             }
-            reverse += revWords +" ";
-        }
-        System.out.println(reverse);
-    }
+            public static  String  reverseWordsInASentence (String str) {
+
+                String[] words = str.split("");
+                String result = "";
+                for (int i = 0; i < str.length(); i++) {
+                    String letters = words[i];
+                    String reverseWords = " ";
+
+                    for (int j = letters.length()-1; j >= 0; j--) {
+
+                        reverseWords += "" + letters.charAt(j);
+                        result += reverseWords + " ";
+                    }
+
+                }
+                    return result;
+            }
 }

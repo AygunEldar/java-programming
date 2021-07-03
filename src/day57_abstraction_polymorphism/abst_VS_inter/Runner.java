@@ -14,5 +14,7 @@ public class Runner {
         //ConcreteA.staticMethodE("hello"); - >Error works with Interface
          ConcreteA.staticMethodC();
 
+
+
     }
 }

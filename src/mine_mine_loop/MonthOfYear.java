@@ -25,7 +25,7 @@ public class MonthOfYear {
                     System.out.println(month +" June");
                     break;
                 case 7:
-                    System.out.println(month +" July");
+                    System.out.println(month + "july");
                     break;
                 case 8:
                     System.out.println(month +" August");

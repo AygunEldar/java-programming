@@ -1,5 +1,7 @@
 package day47_constructors;
 
+import java.sql.Struct;
+
 public class StudentObjects {
     public static void main(String[] args) {
         Student st1 = new Student(); //runs no-args constructor

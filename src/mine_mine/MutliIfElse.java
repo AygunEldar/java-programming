@@ -17,7 +17,7 @@ public class MutliIfElse {
         }else if(month ==6){
             System.out.println("June");
         }else if(month==7){
-            System.out.println("July");
+            System.out.println("july");
         }else{
             System.out.println("August,\nSeptember,\nOctober,\nNovember,\nDecember");
         }

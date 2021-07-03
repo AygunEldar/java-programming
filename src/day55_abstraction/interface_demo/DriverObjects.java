@@ -12,7 +12,7 @@ public class DriverObjects {
         driver1.get("https://www.google.com");
         driver1.findElement("//input[@name='q']");
         System.out.println("Title = " + driver1.getTitle());
-
+        driver2.get("http://www.amazon.com");
 
 
 

@@ -17,8 +17,6 @@ public abstract  class Student {
 
 }
 
-
-
  // we can add abstract method into abstract class
  //abstract method --> is created using abstract keyword
  //and does not have the implementation / method body

@@ -12,7 +12,9 @@ public class Anagram {
 
             return false;
         }
-        int [] count = new int[26];
+
+       int [] count = new int[26];
+
         a = a.toLowerCase();
         b = b.toLowerCase();
 

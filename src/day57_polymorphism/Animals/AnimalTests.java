@@ -28,8 +28,9 @@ public class AnimalTests {
         listOfAnimals.add(new Cat());
 
         for(Animal each : listOfAnimals){
+
             each.makeNoise();
-        }
+    }
 
     }
 }
