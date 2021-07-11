@@ -13,17 +13,12 @@ public class UniqueLetter {
 
             for (int j = 0; j < school.length(); j++) {
                 if (school.charAt(i) == school.charAt(j)) {
-
                     count++;
                 }
-
-
                 }
                 if (count == 1) {
                     unique = school.charAt(i) + "";
             }
-
-
         }
         System.out.println(unique);
     }

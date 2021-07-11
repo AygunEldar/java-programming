@@ -28,6 +28,6 @@ public class Amazon extends OnlineShopping implements AllowUsersToSell{
 
     @Override
     public void upLoadProduct() {
-
+        System.out.println("Amazon seller");
     }
 }

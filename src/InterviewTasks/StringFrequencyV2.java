@@ -3,9 +3,9 @@ import java.util.*;
 
 public class StringFrequencyV2 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the letters");
-        String letters = scan.next();
+//
+
+
         System.out.println(freqLetters("AAABBCDDDD"));
     }
     public static String freqLetters (String str){

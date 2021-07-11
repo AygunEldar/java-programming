@@ -4,7 +4,7 @@ public interface AllowUsersToSell {
 
     //Create an interface AllowUsersToSell
     //    - Declare an abstract method:
-    //        uploadProduect()
+    //        uploadProduct()
 
     void upLoadProduct();
 }

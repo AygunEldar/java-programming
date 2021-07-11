@@ -16,7 +16,6 @@ public class Gmail extends Email{
         Email.sendEmail();
    }
 
-
     public Gmail(String address, int numberOfEmail) {
         super(address, numberOfEmail);
     }

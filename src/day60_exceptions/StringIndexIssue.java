@@ -1,0 +1,32 @@
+package day60_exceptions;
+
+public class StringIndexIssue {
+    public static void main(String[] args) {
+
+        String word = "java";
+        try {
+            System.out.println("word " + word);
+            System.out.println(word.charAt(10));
+        }catch(Exception e){
+
+            System.out.println("Exception happened and caught ");
+            System.out.println("reason = "+ e.getMessage());
+        }
+        System.out.println(word.toUpperCase());
+
+        String word2 = "selenium ";
+        try {
+            System.out.println("word2 = " + word2);
+            System.out.println(word2.substring(0, 5));
+            System.out.println(word2.substring(0, 15));
+       }catch(StringIndexOutOfBoundsException e){
+      //  }catch(ArithmeticException e){ it will not catch the exception because it is not arithmetical
+        }catch(ArithmeticException e){
+            System.out.println("type of exception: " +e.getClass().getSimpleName());
+            System.out.println("Reason: " +e.getMessage());
+
+        }
+        System.out.println("----------E N D------------ ");
+    }
+
+}
