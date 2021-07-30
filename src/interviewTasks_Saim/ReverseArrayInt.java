@@ -3,9 +3,10 @@ package interviewTasks_Saim;
 import java.util.Arrays;
 
 public class ReverseArrayInt {
+
     public static void main(String[] args) {
         int[] num = {4, 8, 9, 7, 6, 2};
-       // System.out.println(reverse(Arrays.toString(num)));
+        System.out.println(Arrays.toString(reverse(num)));
     }
 
         public static int[] reverse ( int[] num){

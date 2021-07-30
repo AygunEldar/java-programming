@@ -6,6 +6,7 @@ import java.util.List;
 
 public class CharDigit {
     public static void main(String[] args) {
+
         String str = "CBA876FAG965";
         char ch[] = str.toCharArray();
         List<Integer> digit = new ArrayList<>();

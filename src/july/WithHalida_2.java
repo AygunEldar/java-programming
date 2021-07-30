@@ -13,6 +13,8 @@ public class WithHalida_2 {
 
         }
         System.out.println("*******************************");
+
+        //PALINDROME
         String word = "madam";
         String rev = "";
         for (int i = word.length() - 1; i >= 0; i--) {
@@ -37,7 +39,7 @@ public class WithHalida_2 {
         }
         System.out.println("palindrome");
 
-        System.out.println("------------------------");
+        System.out.println("---------REVERSE NUMBERS---------------");
 
         int[] nums = {4, 5, 3, 6, 7, 8, 9, 1, 2};
 
@@ -49,7 +51,7 @@ public class WithHalida_2 {
         }
         System.out.println(Arrays.toString(nums));
 
-        System.out.println("********************************************");
+        System.out.println("*******REV*********");
 
         String[] word1 = {"cat","bat","rat","sat","fat"};
 
@@ -61,7 +63,7 @@ public class WithHalida_2 {
         }
         System.out.println(Arrays.toString(word1));
 
-        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+        System.out.println("$$$$$$$$$$$$$$$$$$$$");
 
         int num1 =20;
         int num2 =10;

@@ -5,13 +5,14 @@ import java.util.Locale;
 
 public class SameLetters_2 {
     public static void main(String[] args) {
+
         System.out.println(isSameLetters("abc","cba"));
 
     }
 
     public static boolean isSameLetters(String a, String b) {
 
-        //String [] word = a.split(" ");
+       // String [] word = a.split(" ");
         char[] a1 = a.toCharArray();
         char[] b1 = b.toCharArray();
 

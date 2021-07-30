@@ -13,5 +13,10 @@ public class ThrowingException {
             throw new RuntimeException("username cannot be empty");
             //Assert.fail("reason message ..")
         }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

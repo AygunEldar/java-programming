@@ -32,7 +32,7 @@ public class IQ_Armstrong {
         String  strNum = "" + num;
          int power = strNum.length();
          int sum = 0;
-         for(int i =0; i < strNum.length(); i++){
+         for(int i =0; i < power; i++){
 
              int eachDigit = Integer.parseInt(strNum.substring(i, i+1));
           //   sum += Math.pow.

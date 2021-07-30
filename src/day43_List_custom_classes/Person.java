@@ -40,4 +40,5 @@ public class Person { // class as a template  //these data types are sources for
          System.out.println(""+person1.firstName);
 
      }
+
  }

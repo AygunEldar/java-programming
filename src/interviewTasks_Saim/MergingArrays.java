@@ -13,10 +13,11 @@ public class MergingArrays {
 //             sum[i]= num1[i] + num2[i];
 //            System.out.print(sum[i]+" ");
 
+                  //Merging
          int[] arr1 ={4,7,8};
          int[] arr2 = {3,6,5};
 
-      // System.out.println(concatTwoArrays(Arrays.toString(arr1,arr2)));
+       System.out.println(Arrays.toString(concatTwoArrays(arr1,arr2)));
         }
 
 
