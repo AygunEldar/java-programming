@@ -1,8 +1,11 @@
 package InterviewTasks;
 
+import java.util.stream.IntStream;
+
 public class FromOneToHundred {
     public static void main(String[] args) {
          printNum(1);
+
 
     }
     public static void printNum(int num){
@@ -13,5 +16,6 @@ public class FromOneToHundred {
             printNum(num);
         }
     }
+
 
 }

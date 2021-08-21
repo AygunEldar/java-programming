@@ -1,4 +1,4 @@
-package interviewTasks_Saim;
+package interviewTasks_Saim.All_Arrays;
 
 import june.main;
 

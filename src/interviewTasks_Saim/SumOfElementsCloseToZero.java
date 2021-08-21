@@ -5,11 +5,10 @@ import java.util.Arrays;
 public class SumOfElementsCloseToZero {
     public static void main(String[] args) {
 
-//        int [] a = {2,0,4,0};
-//        int [] arr = {1,0,3,5};
-//        System.out.println(Arrays.toString(getSumOfTwoClosestToZeroElements(a,arr));
+int [] num ={1,8,0,2,6,8,5,8,0,1,2,0};
+        getSumOfTwoClosestToZeroElements(num);
     }
-    public static int getSumOfTwoClosestToZeroElements(int[] a){
+    public static void getSumOfTwoClosestToZeroElements(int[] a){
         int [] b = new int[2];
         int z= 0;
 
@@ -23,8 +22,10 @@ public class SumOfElementsCloseToZero {
                      b[0] = a [i];
                      b[1] = a [j];
                  }
+
             }
+
         }
-        return  z;
+       // System.out.println(a[]);
     }
 }

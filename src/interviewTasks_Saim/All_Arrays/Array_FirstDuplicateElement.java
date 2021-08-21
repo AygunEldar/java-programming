@@ -1,4 +1,6 @@
-package interviewTasks_Saim;
+package interviewTasks_Saim.All_Arrays;
+
+import java.util.Arrays;
 
 public class Array_FirstDuplicateElement {
     public static void main(String[] args) {
@@ -23,5 +25,7 @@ public class Array_FirstDuplicateElement {
             }
         }
         return firstDuplicate;
+       // Arrays.stream(nums).distinct().forEach(n-> System.out.println(n +" "));
     }
+
 }

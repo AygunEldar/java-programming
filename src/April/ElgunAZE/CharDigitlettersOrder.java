@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CharDigit {
+public class CharDigitlettersOrder {
     public static void main(String[] args) {
 
         String str = "CBA876FAG965";

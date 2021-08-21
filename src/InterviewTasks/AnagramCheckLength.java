@@ -1,6 +1,6 @@
 package InterviewTasks;
 
-public class Anagram {
+public class AnagramCheckLength {
     public static void main(String[] args) {
 
         System.out.println(isAnagram("listen","silent"));

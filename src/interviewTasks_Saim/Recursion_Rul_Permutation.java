@@ -1,6 +1,6 @@
 package interviewTasks_Saim;
 
-public class Recurtion_Rul {
+public class Recursion_Rul_Permutation {
 
     static public void StringPermutation(String input)
     {
@@ -17,7 +17,8 @@ public class Recurtion_Rul {
         {
             for (int i = 0; i < input.length(); i++)
             {
-                StringPermutation(permutation+input.charAt(i), input.substring(0, i)+input.substring(i+1, input.length()));
+                StringPermutation(permutation+input.charAt(i),
+                        input.substring(0, i)+input.substring(i+1));
             }
         }
     }

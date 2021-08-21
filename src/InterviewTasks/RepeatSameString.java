@@ -1,7 +1,6 @@
-package day37_methods_overloading;
-import java .util.*;
+package InterviewTasks;
 
-public class MethodPractice {
+public class RepeatSameString {
     public static void main(String[] args) {
         System.out.println(repeatString("hello",5,'*'));
         System.out.println(repeatString("I can do it",7,'!'));
@@ -18,5 +17,4 @@ public class MethodPractice {
         }
         return retValue;
     }
-
 }

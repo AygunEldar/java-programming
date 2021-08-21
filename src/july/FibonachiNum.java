@@ -4,6 +4,7 @@ public class FibonachiNum {
 
     public static void main(String[] args) {
         fib(8);
+        fiboSeries(20);
     }
 
     public static void fib(int num) {
@@ -15,6 +16,24 @@ public class FibonachiNum {
             int sum = num1 + num2;
             num1 = num2;
             num2 = sum;
+
+        }
+    }
+
+    public static void fiboSeries(int limit) {
+
+        int a = 0;
+        int b = 1;
+        int count = 0;
+        int c = 0;
+
+        while (count < limit) {
+
+            c = a + b;
+            a = b;
+            b = c;
+            System.out.print(c + ", ");
+            count++;
 
         }
     }
